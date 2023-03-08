@@ -43,3 +43,5 @@ Web Coffee was created by Victor Rocha and was developed with the help of Google
 ## Contact
 
 If you have any questions or need assistance, you can contact us through GitHub Issues. Thank you for using Web Coffee!
+
+© 2023 Victor Rocha. All rights reserved.
