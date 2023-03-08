@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "- Serviços";
+    var message = ViewBag.SuccessMsg;
+}
+
+<div class="main text-white form-group">
+        <form action="/Home/Form" method="post">
+            <label for="name">Seu nome:</label>
+            <input type="text" class="form-control" name="name"/> </br>
+          
+            <label for="email">Seu e-mail:</label>
+            <input type="email" class="form-control" name="email"/> </br>
+          
+            <label for="message">Mensagem:</label>
+            <textarea class="form-control" name="message"></textarea> </br>
+          
+            <input type="submit" class="btn btn-primary" value="Enviar" />
+    </form>
+
+    <script>
+    var message = '@message';
+    if(message){
+        alert(message);
+    }
+</script>
+</div>

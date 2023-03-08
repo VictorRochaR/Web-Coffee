@@ -1,0 +1,49 @@
+.brownc{
+    background-color: #271300;
+    color:#B27300;
+}
+.nav-link, .navbar-brand{
+    color:#B27300 !important;
+}
+
+.nav-link:hover{
+    color: #503300 !important;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a{
+  position: relative;
+}
+
+nav ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #B27300;
+  height: 1px;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.logoc{
+    width: 5vw;
+    height: auto;
+}
+
+a{
+  font-size: 1vw;
+}
+a:link{
+  text-decoration: none;
+}
