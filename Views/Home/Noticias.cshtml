@@ -1,0 +1,16 @@
+@model List<Noticia>
+@{
+    ViewData["Title"] = "- Notícias";
+}
+
+<div class="main">
+    <h3 class="text-white">Confira aqui as últimas notícias sobre a nossa lan house:</h3>
+
+        @foreach (Noticia nt in Model)
+        {
+            <h5 class="text-white">@nt.nome</h5>
+            <p class="text-white">@nt.corpo</p>
+            <p class="text-muted">Escrito por @nt.autor</p>
+            <br>
+        }
+</div>
