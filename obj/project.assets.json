@@ -8,19 +8,27 @@
           "System.Diagnostics.DiagnosticSource": "5.0.1"
         },
         "compile": {
-          "lib/netcoreapp3.1/MySqlConnector.dll": {}
+          "lib/netcoreapp3.1/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/MySqlConnector.dll": {}
+          "lib/netcoreapp3.1/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -90,19 +98,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Victor Rocha\\.nuget\\packages\\": {}
+    "C:\\Users\\rocha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\estudo\\Senac\\UC8\\M2\\ATV5\\ATV3.csproj",
+      "projectUniqueName": "C:\\Estudos\\meus\\Web-Coffee\\ATV3.csproj",
       "projectName": "ATV3",
-      "projectPath": "C:\\estudo\\Senac\\UC8\\M2\\ATV5\\ATV3.csproj",
-      "packagesPath": "C:\\Users\\Victor Rocha\\.nuget\\packages\\",
-      "outputPath": "C:\\estudo\\Senac\\UC8\\M2\\ATV5\\obj\\",
+      "projectPath": "C:\\Estudos\\meus\\Web-Coffee\\ATV3.csproj",
+      "packagesPath": "C:\\Users\\rocha\\.nuget\\packages\\",
+      "outputPath": "C:\\Estudos\\meus\\Web-Coffee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Victor Rocha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rocha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -112,6 +120,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -123,6 +132,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MySqlConnector": {
             "target": "Package",
@@ -135,10 +145,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.31, 3.1.31]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -147,7 +164,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

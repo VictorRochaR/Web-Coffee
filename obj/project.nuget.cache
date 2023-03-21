@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W2Yf9I+VXQN41GrNoeB0xKGWMe47fLMZ03+WgxhLefyk1TOtLmSpVPnha9e3yKzWE0Iu2UGsm5cnE5XmopJUKA==",
+  "dgSpecHash": "ulDUuKVN+LqltM4OInq5ak0NCf1nnylRO3cBqE+lgavOBMg2XscMfP7jzMQzBUbflxek5kWHEsR6Wwt2AbkW7g==",
   "success": true,
-  "projectFilePath": "C:\\estudo\\Senac\\UC8\\M2\\ATV5\\ATV3.csproj",
+  "projectFilePath": "C:\\Estudos\\meus\\Web-Coffee\\ATV3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Victor Rocha\\.nuget\\packages\\mysqlconnector\\2.1.6\\mysqlconnector.2.1.6.nupkg.sha512",
-    "C:\\Users\\Victor Rocha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\rocha\\.nuget\\packages\\mysqlconnector\\2.1.6\\mysqlconnector.2.1.6.nupkg.sha512",
+    "C:\\Users\\rocha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\rocha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
   ],
   "logs": []
 }

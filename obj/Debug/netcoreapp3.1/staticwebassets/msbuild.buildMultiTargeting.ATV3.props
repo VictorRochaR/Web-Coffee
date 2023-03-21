@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ATV3.props" />
+</Project>
